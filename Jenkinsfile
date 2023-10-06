@@ -3,8 +3,10 @@ node {
 
     stage('Clone repository') {
       
-
+        sh 'pwd'
+        sh 'ls'
         checkout scm
+        sh 'ls'
     }
 
     stage('Build image') {
