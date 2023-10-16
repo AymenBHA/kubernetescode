@@ -14,7 +14,7 @@ Jenkins is installed on EC2. Follow the instructions on https://www.jenkins.io/d
 
 ### Jenkins plugins
 
-Install the following plugins for the demo.
+Install the following plugins 
 - Amazon EC2 plugin (No need to set up Configure Cloud after)
 - Docker plugin  
 - Docker Pipeline
